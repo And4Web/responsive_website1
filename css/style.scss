@@ -77,5 +77,40 @@ body {
     font-size: 2.5rem;
     color: $white;
     cursor: pointer;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+  #menu-btn {
+    display: none;
+  }
+  .navbar {
+    a {
+      color: $white;
+      font-size: 2rem;
+      margin: 0 2rem;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        color: $yellow;
+      }
+    }
+    .space {
+      display: inline-block;
+      width: 20rem;
+    }
+  }
+
+  .logo {
+    position: absolute;
+    top: 4.5rem;
+    left: 41.5%;
+    transform: translateY(-50%);
+
+    img {
+      width: 18rem;
+    }
   }
 }

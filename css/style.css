@@ -65,4 +65,41 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+.header .icons:hover {
+  color: #eacf4f;
+}
+
+.header #menu-btn {
+  display: none;
+}
+
+.header .navbar a {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+.header .navbar a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  color: #eacf4f;
+}
+
+.header .navbar .space {
+  display: inline-block;
+  width: 20rem;
+}
+
+.header .logo {
+  position: absolute;
+  top: 4.5rem;
+  left: 41.5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.header .logo img {
+  width: 18rem;
+}
 /*# sourceMappingURL=style.css.map */
