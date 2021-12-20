@@ -6,3 +6,5 @@ searchBtn.onclick = () => {
   searchBtn.classList.toggle('fa-times');
   searchForm.classList.toggle('active');
 }
+
+// 20 minutes onwards
