@@ -16,7 +16,7 @@ $yellow: #eacf4f;
 $white: #fff;
 $black: #000;
 $light-color: #aaa;
-$border: 2rem solid rgba(255, 255, 255, 0.3);
+$border: 0.2rem solid rgba(255, 255, 255, 0.3);
 
 @mixin title-text($titleSize) {
   font-size: $titleSize;
@@ -111,6 +111,26 @@ body {
 
     img {
       width: 18rem;
+    }
+  }
+
+  .search-box {
+    height: 7rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    background: $black;
+    border-top: $border;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    input {
+      width: 100%;
+      text-transform: none;
+      font-size: 1.6rem;
+      color: $white;
+      background: none;
     }
   }
 }
