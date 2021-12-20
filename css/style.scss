@@ -125,6 +125,13 @@ body {
     top: 99%;
     left: 0;
     right: 0;
+
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    &.active {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
     input {
       width: 100%;
       text-transform: none;
@@ -132,5 +139,8 @@ body {
       color: $white;
       background: none;
     }
+  }
+  .fa-times {
+    transform: rotate(180deg);
   }
 }
