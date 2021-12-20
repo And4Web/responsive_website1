@@ -11,6 +11,25 @@
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   text-decoration: none;
-  background-color: aqua;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+  overflow: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: yellow;
+  border-radius: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
