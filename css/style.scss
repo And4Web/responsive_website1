@@ -53,3 +53,29 @@ html {
     border-radius: 1rem;
   }
 }
+
+body {
+  background: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  background: $black;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 3rem 9%;
+  z-index: -10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  .icons {
+    font-size: 2.5rem;
+    color: $white;
+    cursor: pointer;
+  }
+}

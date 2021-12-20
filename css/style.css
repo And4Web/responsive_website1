@@ -32,4 +32,37 @@ html::-webkit-scrollbar-thumb {
   background: yellow;
   border-radius: 1rem;
 }
+
+body {
+  background: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  background: #000;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 3rem 9%;
+  z-index: -10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+}
+
+.header .icons {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
