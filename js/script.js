@@ -7,4 +7,12 @@ searchBtn.onclick = () => {
   searchForm.classList.toggle('active');
 }
 
-// 20 minutes onwards
+let menuBtn = document.querySelector('#menu-btn');
+
+let navBar = document.querySelector('.header .navbar'); 
+
+menuBtn.onclick = () => {
+  menuBtn.classList.toggle('fa-times');
+  navBar.classList.toggle('active');
+}
+// 23 minutes onwards
